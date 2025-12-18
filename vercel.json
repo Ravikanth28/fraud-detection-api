@@ -1,15 +1,8 @@
 {
-    "version": 2,
     "rewrites": [
         {
             "source": "/predict",
             "destination": "/api/predict"
-        }
-    ],
-    "builds": [
-        {
-            "src": "api/**/*.py",
-            "use": "@vercel/python"
         }
     ]
 }
